@@ -1,0 +1,112 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://wallpapers.com/images/featured/pastel-moon-1bk7xg9whzg7ic6y.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Background opacity overlay */
+.slam {
+  background-color: rgba(255, 255, 255, 0.8); /* White background with low opacity */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form .form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+/* Label styles */
+form label {
+  flex: 0 0 30%;  
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+  
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form textarea,
+form select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: calc(100% - 20px); /* Ensure consistent width */
+  box-sizing: border-box;
+  
+}
+
+/* Uniform text area size */
+form textarea {
+  height: 80px;
+  resize: none;
+}
+
+/* Radio and checkbox styles */
+form input[type="radio"],
+form input[type="checkbox"] {
+  margin-right: 8px;
+  
+}
+form input[type="radio"]{
+  padding-left: 0%;
+  margin-left: 0%;
+}
+
+/* Dropdown styling */
+form select {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+.submitbutton button {
+  background-color: #28a745;
+  color: white;
+  font-size: 10px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.submitbutton button:hover {
+  background-color: #218838;
+}
+/* */
+
+
+
+
+
+

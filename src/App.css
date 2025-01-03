@@ -1,0 +1,87 @@
+/* Styling for the header and logo */
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  background-color: rgb(10, 10, 10);
+  padding: 10px 0;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px; /* Set the logo size */
+  width: auto;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-text {
+  font-size: 24px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+ ol {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  align-items: center;
+  
+}
+
+ ol {
+  color: blanchedalmond;
+  padding: 0;
+}
+
+li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: yellow;
+}
+
+/* Footer styling */
+footer {
+  background-color: rgb(10, 10, 10);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0%;
+  
+  
+}
+body{
+  background-image: url('https://img.freepik.com/free-photo/white-chrysanthemum-flowers-leaves-yellow-card_23-2148048390.jpg?t=st=1735581052~exp=1735584652~hmac=ec63ae354acf5ae769c09947235137afeeb05ade473f2b35afd9d61f0a3bc61e&w=1380');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+
+.container{
+  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes full viewport height */
+  
+}
+
+
+
