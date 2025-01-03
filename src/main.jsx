@@ -4,7 +4,8 @@ import './index.css'
 //import Sudee from './Sudee.jsx'
 //import Usestatebutton from './Usestatebutton.jsx'
 //import App from "./App.jsx"; // Relative path
-import Drill from './Drill.jsx';
+//import Drill from './Drill.jsx';
+import Appuseparams from './appuseparams.jsx';
 
 
 
@@ -13,8 +14,9 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/*<Sudee/>
     <App/>
-    <Usestatebutton/>*/}
-    <Drill/>
+    <Usestatebutton/>
+    <Drill/>*/}
+    <Appuseparams/>
     
     
     
