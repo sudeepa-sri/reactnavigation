@@ -1,8 +1,8 @@
-/* import React, { createContext, useState } from 'react';
+import React, { createContext, useState } from 'react';
 import Hen from './Hen';
 
 export let nameContext = createContext();
-R
+
 function Drill() {
     const [colour, setColour] = useState(true); // For toggling the color
      
@@ -22,8 +22,8 @@ function Drill() {
     );
 }
 
-export default Drill; */
-import {useState} from 'react'
+export default Drill; 
+/*import {useState} from 'react'
 let Hook4 = () =>{
     let [Number,setNumber] = useState(0);
     let [dark,setDark] = useState("false");
@@ -49,5 +49,5 @@ let slowfunction = (number) =>{
     for(let i=0;i<100000000000;i++){}
     return number*2;
 }
-
+*/
 
